@@ -1,0 +1,68 @@
+
+.section-1
+{
+	color: white; /*the text color is lighter(white) because the background is dark(blue)  */
+	display: flex; /*converts column format(each div) into a row format(each div) */
+	flex-direction: row;
+	align-items: center; /* Centers out the Login & Signup so they dont stick to the extreme top of the web page */
+}	
+
+.section-2
+{
+	display: flex;
+}
+
+.section-4  /* lets you specify two images in a row */
+{
+	display: flex;
+}
+
+.section-5  /* lets you specify two images in a row */
+{
+	color: white; /*the text color is lighter(white) because the background is dark(blue)  */
+	display: flex; /*converts column format(each div) into a row format(each div) */
+	flex-direction: row;
+	align-items: center; /* Centers out the Login & Signup so they dont stick to the extreme top of the web page */
+}
+
+.headline
+{
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.subheadline
+{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.bottom-text
+{
+	font-size: 20px;	
+}
+
+/*applying padding(space within the button border) to all buttons */
+input[type='button']
+{
+	padding: 7px 20px;
+	font-weight:bold;
+	border: 0px;
+	border-radius: 20px;
+	color: white;
+	background-color: orange;
+}
+
+.topbutton
+{
+	padding: 7px 20px;
+	font-weight:bold;
+	border: 0px;
+	border-radius: 35px;
+	color: white;
+	background-color: orange;
+}
+
+
+
+
